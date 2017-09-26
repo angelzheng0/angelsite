@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body {
+   font-family: 'Inconsolata', monospace;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+nav {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-top: 5px;
+
+/*
+    margin-top: -25px;
+    margin-bottom: -25px;
+*/
+}
+
+nav ul {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    text-align: center;
+   
+
+    
+}
+
+
+
+
+nav li {
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-nav li a:link {
+    text-decoration: none;
+}
+
+
+
+li {
+list-style-type: none;
+}
+
+
+.nav-links:link {
+    color: #F9C4C5;
+    text-decoration:none;
+    
+}
+
+.nav-links:visited {
+    color: #F9C4C5;
+    text-decoration:none;
+}
+
+.nav-links:hover {
+    color: lightblue;
+    
+    
+}
+
+.current-page {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+article {
+    background-color: #FFFFFF;
+    padding-bottom: 20px; 
+	padding-left: 10px;
+}
+
+.reference-image {
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+
+h1 {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2.1875em;
+    padding: 40px 25px 25px 15px;
+    
+    
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+h2 {
+    background-color:#FBE9E9;
+    color: #FBC2C3;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+h3 {
+    background-color:#FFFFFF;
+    color: #FBC2C3;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 1.5em;
+    font-style: bold;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+p {
+    color: #000000;
+    font-size: .9375em;
+    padding: 5px;
+    padding-left: 40px;
+	padding-bottom: 5px;
+}
+
+
+#page {
+    text-align: center;
+    width: 960px;
+    margin: 10px auto -1px auto;
+    padding: 15px;
+    
+}
+.InsideContent{
+    display:inline-block;
+    
+}
+}
+#divTable {
+    width: 800px;
+}
+#divMessage {
+    width: 350px;
+}
+
+/*styles gallery*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 600px;
+}
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 190px;
+    margin: 20px;
+    text-align: center;
+    width: 28%;
+}
+
+
+footer{
+    text-align:center;
+    
+}
+
+
+
+
+
