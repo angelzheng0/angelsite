@@ -1,0 +1,89 @@
+
+
+body {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif""Goudy-Old-Style", "Times-New-Roman", serif;
+    margin: 0 auto;
+    width: 900px;
+    font-size: 100%;
+}
+
+article {
+    background-color: #F9E9EA;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif""Goudy-Old-Style", "Times-New-Roman", serif;
+}
+
+header {
+    background-color: #F9E9EA;
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
+}
+
+nav {
+    background-color: #F9E9EA;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-links:link {
+    color: #F9E9EA;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: #F9E9EA;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #F1BDE4
+}
+
+h1 {
+    background-color: #F9E9EA;
+    color: #FBC6C7;
+    font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"Lucida-Bright", "Book-Antiqua", serif;
+    font-size: 2.1875em;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #FFFFFF;
+    font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"Lucida-Bright", "Book-Antiqua", serif; 
+	font-size: 20px;
+	color: 999999
+    padding: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+h3 {
+    background-color: #FFFFFF;
+    font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'"Lucida-Bright", "Book-Antiqua", serif;
+    font-size: 40px
+	color: #999999 
+    padding: 15px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.reference-image {
+    left: 100px;
+    position: relative;
+    padding: 10px 10px 15px 0;
+}
+
+p {
+    color: #4C4C4C;
+    font-size: .9375em;
+    padding: 20px;
+}
+
+footer{
+    color: #999999 
+}
