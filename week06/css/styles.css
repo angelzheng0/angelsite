@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 body {
    font-family: 'Inconsolata', monospace;
     font-size: 100%;
@@ -26,15 +23,13 @@ header {
 
 
 nav {
-    background-color: #FFFFFF;
-    padding-bottom: 30px;
-    padding-left: 35px;
-    padding-top: 5px;
+background-color: #FFFFFF;
+margin-left: 13%;
+min-height: 10%;
+}
 
-/*
-    margin-top: -25px;
-    margin-bottom: -25px;
-*/
+
+
 }
 
 nav ul {
@@ -48,8 +43,7 @@ nav ul {
 
 nav li {
     display:inline-block;
-    padding-left: 10px;
-    padding-right: 30px;
+  
 }
 
 .main-nav li a:link {
@@ -90,6 +84,7 @@ article {
     background-color: #FFFFFF;
     padding-bottom: 20px; 
 	padding-left: 10px;
+    text-align: center;
     
 }
 
@@ -103,7 +98,7 @@ h1 {
     background-color: #FFFFFF;
     color: #000000;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 7em;
+    font-size: 8.5em;
     padding: 80px 10px 25px 40px;
     
     
@@ -119,7 +114,7 @@ h2 {
     background-color:#FFFFFF;
     color: #000000;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 2em;
+    font-size: 2.2em;
     text-align: center;
     padding-bottom: 50px;
     padding-left: 10px;
@@ -130,12 +125,14 @@ h3 {
     background-color:#FFFFFF;
     color: #FBC2C3;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
-    padding-bottom: 20px;
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 
 }
 p {
@@ -157,93 +154,15 @@ p {
 
 
 
-/*styles gallery----------------------------------------------------------------------------------------------------------*/
-
-
-body {
-    margin: 0 auto;
-    max-width: 300px;
-    min-width: 600px;
-}
-
-.gallery figure {
-    color: blue;
-    float: left;
-    height: 190px;
-    margin: 15px;
-    text-align: center;
-    width: 28%;
-    
-}
-
-
-footer{
-    text-align:center;
-    
-}
-
-figure {
-    -webkit-border-radius: 1px;
-    border-radius: 6px;
-    height: 9.375em;
-    margin: 5em 0 0 0;
-    overflow: hidden;
-    position: relative;
-    width: 26.1%;
-}
-
-.thumbnail-1 {
-    float: left;
-    margin-left: 7em;
-}
-
-.thumbnail-2 {
-    float: right;
-    margin-right: 7em;
-}
-
-.thumbnail-3 {
-    float: right;
-    margin-right: 7em;
-}
-
-figcaption {
-    background-color: #fdfdfd;
-    color: #000000;
-    display: block;
-    font-size: 90%;
-    height: 150px;
-    opacity: 0;
-    padding-left: 20px;
-    padding-right: 60px;
-    position: absolute;
-    transition: opacity .4s ease;
-    text-align: center;
-}
-
-figcaption p {
-   padding-top: 55px; 
-   margin: 0 auto;
-}
-
-figcaption:hover {
-    opacity: .6;
-}
-
-
-.gallery .start-image {
-   display: block; 
-}
-
-.gallery section {
-display: none;
-}
-
-.gallery section:target {
-display: contents;
-}
-
 /*slideshow gallery-------------------------------------------------------------------------------------------------------*/
+
+main {
+    background-color: #fff;
+    min-height: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
 
 figure {
     /*text-align: center;*/
@@ -253,7 +172,7 @@ figure img {
      height: auto;
     /*margin: 25px;*/
     /*margin-bottom: 10px;*/
-     width: 100%;
+     width: 50%;
 }
 
 figcaption {
@@ -263,7 +182,7 @@ figcaption {
 }
 
 footer {
-    background-color: #FFFFFF;
+    background-color: #fff;
     min-height: 50px;
 }
 
@@ -277,13 +196,15 @@ footer li {
     padding: 30px;
 }
 
+
 /*drop down menu----------------------------------------------------------------------------------------------------------*/
 
 .main-nav,
 .sub-nav {
     list-style: none;
     margin: 0;
-    padding: 0;
+   
+
 }
 
 .main-nav li {
@@ -293,8 +214,8 @@ footer li {
     line-height: 40px;
     margin-right: 15px;
     text-align: center;
-
     width: 200px;
+    
 
 }
 
@@ -319,7 +240,7 @@ footer li {
 }
 
 main {
-    min-height: 600px;
+    min-height: 500px;
 }
 
 footer {
@@ -341,7 +262,7 @@ footer {
   text-decoration: none;
   padding-left: 80px;
   padding-right: 80px;
-  margin-left: 180px;
+  margin-left: 5%;
   
 
 
@@ -381,15 +302,104 @@ footer {
               line-height 0.1s ease-in;
 }
 
+.ghost-button-border-color {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  padding: 8px;
+  color: #FBC2C3;
+  border: 8px solid #FBC2C3;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+  margin-top: 10px;
+  font-size: 4em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #FBE9E9;
+  border-color: #FBE9E9;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+    
+}
+
+
+
+
+/*styles gallery----------------------------------------------------------------------------------------------------------*/
+
+
+body {
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 820px;
+}
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 160px;
+    margin: 1px;
+    width: 28%;
+    padding-top: 50px;
+
+    
+}
+
+
+footer{
+    text-align:center;
+    
+}
+
+figure {
+    -webkit-border-radius: 1px;
+    height: 9.375em;
+    margin: 5em 0 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 28.1%;
+    
+    
+}
+
+.thumbnail-1 {
+    padding-left: 100px;
+    float: left;
+    margin-left: 2em;
+    
+}
+
+.thumbnail-2 {
+    float: right;
+    margin-right: 2em;
+}
+
+.thumbnail-3 {
+    float: right;
+    margin-right: 2em;
+}
+
+
+
 
 /*contact form------------------------------------------------------------------------------------------------------------*/
 
 input[type=text] {
     font-family: 'Inconsolata', monospace;
     font-size: 1em;
-    width: 100%;
-    padding: 5px;
+    width: 70%;
+    height: 10%;
     margin: 8px 0;
+    margin-left: 5%;
     box-sizing: border-box;
     border: 2px solid #000000;
     -webkit-transition: 0.5s;
@@ -403,10 +413,9 @@ input[type=text]:focus {
 
 textarea {
     font-family: 'Inconsolata', monospace;
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
+    width: 70%;
     margin: 8px 0;
+    margin-left: 5%;
     box-sizing: border-box;
     border: 2px solid #000000;
     background-color: #FFFFFF;
@@ -414,3 +423,24 @@ textarea {
     resize: none;
 }
 
+
+/*about--------------------------------------------------------------------------------------------------------------------*/
+
+.boxed-1 {
+  border: 2px solid #FBC2C3 ;
+  width: 60px;
+  height:20px;
+  margin-left: 30%;
+  margin-top: 10%;
+  text-align: justify;
+}
+
+.boxed-2 {
+  border: 2px solid #fff ;
+  width: 350px;
+  height:240px;
+  margin-top: 2%;
+  margin-left: 30%;
+  
+  text-align: justify;
+}
