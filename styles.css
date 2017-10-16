@@ -34,7 +34,7 @@ nav {
 }
 
 .main-nav {
-    background-color:#0CCBE8;
+    background-color:#fff;
     padding-top: 30px;
 }
 
@@ -168,7 +168,7 @@ body {
 
 .gallery figure {
     color: blue;
-    float: left;
+    float: center;
     height: 190px;
     margin: 20px;
     text-align: center;
@@ -184,9 +184,34 @@ footer{
 
 /*ghost buttons-----------*/
 
+
+
+.ghost-button-semi-transparent {
+  display: inline-block;
+  width: 70px;
+  padding: 8px;
+  color: #FBC2C3;
+  border: 2px solid #FBC2C3;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-bottom: 2%;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+.ghost-button-semi-transparent:hover,
+.ghost-button-semi-transparent:active {
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.4);
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
+
 .ghost-button-size-transition {
   display: inline-block;
-  width: 200px;
+  width: 70px;
   height: 25px;
   line-height: 25px;
   margin: 0 auto;
@@ -194,6 +219,7 @@ footer{
   color: #FBC2C3;
   border: 2px solid #FBC2C3;
   text-align: center;
+  font-weight: bold;
   outline: none;
   text-decoration: none;
   transition: width 0.3s ease-out,
@@ -202,9 +228,9 @@ footer{
 }
 .ghost-button-size-transition:hover,
 .ghost-button-size-transition:active {
-  width: 220px;
-  height: 45px;
-  line-height: 45px;
+  width: 75px;
+  height: 35px;
+  line-height: 35px;
   transition: width 0.1s ease-in,
               height 0.1s ease-in,
               line-height 0.1s ease-in;
