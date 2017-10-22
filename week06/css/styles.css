@@ -279,54 +279,39 @@ footer li {
 
 /*drop down menu----------------------------------------------------------------------------------------------------------*/
 
-.main-nav,
-.sub-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/* Default state of sub-navigation */
+
+.subnav {
+    font-size: .9375em;
+    left: -999em;
+    /* moves subnav off screen */
+    margin-left: -18px;
+    position: absolute;
+    z-index: 1000;
+    /* In this case this isn't needed but it's good practice to specify the position of of an absolutely positioned element in it's stack. */
 }
 
-.main-nav li {
-    background-color: white;
+
+/* State of sub-navigation when parent li hovered upon */
+
+.main-nav li:hover .subnav {
+    display: block;
+    /* This is actually redundant. The nav is a block element by default. */
+    left: auto;
+    /* puts subnav back in natural spot */
+    width: 22em;
+}
+
+.main-nav .subnav li {
+    background-color: #D9853B;
     float: left;
-    font-size: 1.1em;
-    line-height: 40px;
-    margin-right: 15px;
-    text-align: center;
-
-    width: 200px;
-
+    font-size: 1em;
+    padding: 15px 20px 15px 20px;
 }
 
-.main-nav li a {
-    color: #FBC2C3;
-    display: block;
-    text-decoration: none;
+.main-nav .subnav li:last-child {
+    padding-bottom: 25px;
 }
-
-
-.sub-nav li a:hover {
-    background-color: #fff4f4;
-    transition: background-color .5s;
-}
-
-.main-nav li .sub-nav li {
-    display: none;
-}
-
-.main-nav li:hover .sub-nav li{
-    display: block;
-}
-
-main {
-    min-height: 600px;
-}
-
-footer {
-    clear: both;
-    text-align: center;
-}
-
 
 /*ghost buttons------------------------------------------------------------------------------------------------------------*/
 
