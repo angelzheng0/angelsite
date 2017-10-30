@@ -26,10 +26,10 @@ header {
 nav {
     background-color: #fff;
     float: center; 
-    width: 300px;
+    width: 500px;
     min-height: 200px;
     margin: 3%;
-    padding-left: 32%;
+    padding-left: 25%;
    
     
 }
@@ -93,7 +93,7 @@ article {
 h1 {
 
     color: #fff;
-    margin-left: 20%;
+    margin-left: 30%;
     min-height:50px;
     background-color: #FFFFFF;
     color: #000000;
