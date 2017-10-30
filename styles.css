@@ -93,13 +93,13 @@ article {
 h1 {
 
     color: #fff;
-    margin-left: 38%;
+    margin-left: 20%;
     min-height:50px;
     background-color: #FFFFFF;
     color: #000000;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     padding: 165px 25px 10px 15px;
-    font-size: 2.1875em;
+    font-size: 3.5em;
   
 }
 
@@ -157,28 +157,6 @@ p {
     width: 350px;
 }
 
-/*styles gallery*/
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0 auto;
-    max-width: 900px;
-    min-width: 600px;
-}
-
-.gallery figure {
-    color: blue;
-    float: center;
-    height: 190px;
-    margin: 20px;
-    text-align: center;
-    width: 28%;
-}
-
 
 footer{
     text-align:center;
@@ -192,13 +170,14 @@ footer{
 
 .ghost-button-semi-transparent {
   display: inline-block;
-  width: 70px;
-  padding: 8px;
+  width: 108px;
+  padding: 11px;
   color: #FBC2C3;
-  border: 2px solid #FBC2C3;
+  border: 3px solid #FBC2C3;
   text-align: center;
   outline: none;
   text-decoration: none;
+  font-size: 24px;
   margin-bottom: 2%;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
