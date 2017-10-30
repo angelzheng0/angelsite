@@ -1,0 +1,133 @@
+/* The default style sheet for this site. */
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/tiling-background-512x512.png');
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    background-color: #E6E6E6;
+}
+
+nav {
+    background-color: #D9853B;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-links:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-links:visited {
+    color: #0080FF;
+    text-decoration: none;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+article {
+    background-color: #ECECEA;
+    float: left;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+aside {
+    background-color: #D9853B;
+    float: right;
+    /*
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    */
+    width: 35%;
+}
+
+aside p {
+    color: #fff;
+}
+
+.reference-image {
+    left: 150px;
+    padding: 10px 10px 15px 0;
+    position: relative;
+}
+
+h1 {
+    background-color: #558C89;
+    color: #FFF;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 15px;
+}
+
+h2 {
+    background-color: #558C89;
+    color: #FFF;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: #74AFAD;
+    color: #FFF;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+p {
+    color: #4C4C4C;
+    font-size: .9375em;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+footer {
+    background-color: #74AFAD;
+    clear: both;
+}
+
+footer small {
+    color: #fff;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}

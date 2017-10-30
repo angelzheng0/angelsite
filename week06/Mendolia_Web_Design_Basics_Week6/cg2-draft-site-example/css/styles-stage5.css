@@ -1,0 +1,192 @@
+/* The default style sheet for this site. */
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+*{
+margin:0;
+padding:0;
+}
+
+
+.clearfix:before, .clearfix:after {
+content: " ";
+display: table; }
+.clearfix:after { clear: both;
+}
+.clearfix { *zoom: 1;
+}
+
+.clearfix {
+background-color: #D9853B;
+}
+
+
+
+/* Page Style Rules*/
+
+body {
+font-family: 'PTSans', Geneva, Tahoma, Verdana, sans-serif;
+font-size: 100%;
+font-weight: 400;
+max-width: 800px;
+margin: 0 auto;
+background-image: url('../img/tiling-background-512x512.png');
+}
+
+header {
+background-color: #E6E6E6;
+}
+
+h1 {
+font-family: 'PTSans', Calibri, sans-serif;
+font-size: 2.1875em;
+font-weight: 700;
+color: #FFF;
+background-color: #558C89;
+padding: 25px 25px 25px 15px;
+}
+
+h2 {
+font-family: 'PTSans', Calibri, sans-serif;
+font-size: 1.75em;
+color: #FFF;
+font-weight: 700;
+background-color:#558C89;
+padding-left: 25px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+h3 {
+font-family: 'PTSans', Calibri, sans-serif;
+font-size: 1.5em;
+font-weight: 700;
+font-style: italic;
+color: #FFF;
+background-color:#74AFAD;
+padding-left: 40px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+p {
+font-size: .9375em;
+color: #4C4C4C;
+padding: 20px;
+padding-left: 40px;
+}
+
+
+
+/* Main Navigation */
+
+nav {
+background-color: #D9853B;
+padding-left: 35px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+nav ul{
+text-align: center;
+}
+
+li {
+list-style-type: none;
+}
+
+nav li {
+display: inline-block;
+margin-left: 30px;
+margin-right: 30px;
+color: #fff;
+}
+
+.nav-links:link {
+text-decoration:none;
+color: #FFF;
+}
+
+.nav-links:visited {
+text-decoration:none;
+color: #0080FF;
+}
+
+
+
+
+
+/*Main Content*/
+
+.main {
+background-color: #D9853B;
+}
+
+article {
+background-color: #ECECEA;
+width: 65%;
+float: left;
+padding-bottom: 20px; 
+}
+
+.article-thumbnail img {
+padding-top: 15px;
+padding-left: 35px;
+
+
+}
+
+/*Sidebar Content*/
+
+aside {
+background-color: #D9853B;
+width: 35%;
+padding-top: 15px;
+float: right;
+}
+
+aside p {
+font-size: .8em;
+color: #fff;
+}
+
+.sidebar ul {
+padding-left: 25px;
+}
+
+
+
+.sidebar h4 {
+font-family: 'PTSans', Calibri, sans-serif;
+font-size: 1em;
+font-style: italic;
+padding-top: 10px;
+color: #FFF;
+}
+
+.sidebar .desc {
+
+font-size: .8em;
+font-style: oblique;
+color: #FFF;
+padding-bottom: 10px;
+}
+
+.sidebar-thumbnail img {
+max-width: 85%;
+border: 3px solid #fff;
+
+}
+
+
+
+/*Footer Content*/
+
+
+
+footer small {
+display: block;
+color:#fff;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
