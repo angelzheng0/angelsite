@@ -21,23 +21,6 @@ header {
 }
 
 
-.nav-links:link {
-    color: #F9C4C5;
-    text-decoration:none;
-    
-}
-
-.nav-links:link {
-    color: #F9C4C5;
-    text-decoration:none;
-    
-}
-
-.nav-links:visited {
-    color: #F9C4C5;
-    text-decoration:none;
-}
-
 article {
     background-color: #FFFFFF;
     padding-bottom: 20px; 
@@ -113,15 +96,33 @@ p {
 
 
 /*---------MAIN NAVIGATION----------------------------------------------------------*/
+.nav-links:link {
+    color: #F9C4C5;
+    text-decoration:none;
+    
+}
+
+.nav-links:link {
+    color: #F9C4C5;
+    text-decoration:none;
+    
+}
+
+.nav-links:visited {
+    color: #F9C4C5;
+    text-decoration:none;
+}
 
 nav {
     background-color: #fff;
     padding-bottom: 10px;
     padding-top: 10px;
+    
 }
 
 nav ul {
-    text-align: center;
+     text-align: center;
+   
 }
 
 li {
@@ -129,14 +130,19 @@ li {
 }
 
 nav li {
-    color: #FBC2C3;
+    color: #fff;
     display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+    
+  
+    
+    
 }
 
 .main-nav li a:link {
-    color: #fff;
+    color: #FBC2C3;
     text-decoration: none;
 }
 
@@ -179,11 +185,10 @@ nav li {
 
 .main-nav li:hover .subnav {
     display: block;
-    color:aqua;
     /* This is actually redundant. The nav is a block element by default. */
     left: auto;
     /* puts subnav back in natural spot */
-    width: 22em;
+    width: 10em;
     text-decoration-color: #FBC2C3;
 }
 
