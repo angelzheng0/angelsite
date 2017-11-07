@@ -1,0 +1,520 @@
+/* CSS Document */
+
+body {
+    color: #f5f6f7;
+    font: 1.25em Montserrat, sans-serif;
+    line-height: 1.8;
+
+}
+
+p {
+    font-size: 1em;
+}
+
+.margin-gap {
+    margin-bottom: 2.8em;
+}
+
+
+.mybackground1 {
+    background-color: #1abc9c;
+    /* Green */
+    color: #ffffff;
+}
+
+.mybackground1 img {
+    width: 30%;
+}
+
+.mybackground2 {
+    background-color: #474e5d;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.mybackground3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.mybackground4 {
+    background-color: #ffffff;
+    color: #474e5d;
+}
+
+
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.row p {
+    margin-top: 2em;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 60%;
+}
+
+.mybackground5 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+/*-carousel-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+    color: #f5f6f7;
+    font: 1.25em Montserrat, sans-serif;
+    line-height: 1.8;
+
+}
+
+p {
+    font-size: 1em;
+}
+
+.margin-gap {
+    margin-bottom: 2.8em;
+}
+
+
+.mybackground1 {
+    background-color: #1abc9c;
+    /* Green */
+    color: #ffffff;
+}
+
+.mybackground1 img {
+    width: 30%;
+}
+
+.mybackground2 {
+    background-color: #474e5d;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.mybackground3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.mybackground4 {
+    background-color: #ffffff;
+    color: #474e5d;
+}
+
+
+.container-fluid {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.row p {
+    margin-top: 2em;
+}
+
+.carousel-inner > .item > img {
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 60%;
+}
+
+.mybackground5 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/*
+ * Globals
+ */
+
+/* Links */
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Custom default button */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+    color: #FBE9E9;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+
+body {
+
+    background: url(../img/2D.jpg) no-repeat center center fixed;
+    /* background-color: #474e5d; */
+    background-size: cover;
+
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    /* For at least Firefox */
+    min-height: 100%;
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Padding for spacing */
+
+.inner {
+    padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead-brand {
+    /*custom font added*/
+    font: 1.75em Montserrat, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    /* IE8 proofing */
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+    .masthead-nav {
+        float: right;
+    }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover-heading {
+    /*custom font added*/
+    font: 2.5em Montserrat, sans-serif;
+}
+
+.cover {
+    padding: 0 20px;
+}
+
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+    color: #fff;
+    /* IE8 proofing */
+    color: rgba(255, 255, 255, .9);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+    }
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 100%;
+        /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 992px) {
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 700px;
+    }
+}
+
+/*contact form------------------------------------------------------------------------------------------------------------*/
+
+input[type=text] {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    width: 70%;
+    height: 10%;
+    margin: 5px 0;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #FBE9E9;
+}
+
+textarea {
+    font-family: 'Inconsolata', monospace;
+    width: 70%;
+    margin: 8px 0;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
+/*styles gallery----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.gallery figure {
+    color: blue;
+    float: left;
+    height: 160px;
+    margin: 1px;
+    width: 28%;
+    padding-top: 50px;
+
+    
+}
+
+
+footer{
+    text-align:center;
+    
+}
+
+figure {
+    -webkit-border-radius: 1px;
+    height: 9.375em;
+    margin: 5em 0 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 28.1%;
+    
+    
+}
+
+.thumbnail-1 {
+    padding-left: 100px;
+    float: left;
+    margin-left: 2em;
+    
+}
+
+.thumbnail-2 {
+    float: right;
+    margin-right: 2em;
+}
+
+.thumbnail-3 {
+    float: right;
+    margin-right: 2em;
+}
+
+
+
+
+}
+
+
+/*ghost buttons------------------------------------------------------------------------------------------------------------*/
+
+.ghost-button {
+  display: inline-block;
+  width: 80px;
+  padding: 3px;
+  color: #000000;
+  border: 2px solid #000000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-left: 5%;
+  
+
+
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+
+.ghost-button-border-color {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  padding: 8px;
+  color: #fff;
+  border: 8px solid #fff;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+  margin-top: 10px;
+  font-size: 4em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.3s ease-out,
+              color 0.3s ease-out;
+}
+
+.ghost-button-border-color:hover,
+.ghost-button-border-color:active {
+  color: #FBE9E9;
+  border-color: #FBE9E9;
+  transition: border-color 0.4s ease-in,
+              color 0.4s ease-in;
+    
+    
+    
+    
+    
+    
+    
+    
+    /*--------------------------------------------------------------------------------*/
+    
+    
+    
+    
