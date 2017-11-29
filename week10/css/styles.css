@@ -59,7 +59,7 @@ p {
 }
 
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color:aliceblue !important;
 }
 
 .row p {
@@ -164,7 +164,7 @@ p {
 }
 
 
-/*-----------------------------------------------------------------------------------------------------*/
+/*cover-----------------------------------------------------------------------------------------------------*/
 
 /*
  * Globals
@@ -175,7 +175,7 @@ p {
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: #FBC2C3;
 }
 
 /* Custom default button */
@@ -183,11 +183,13 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-    color: #FBE9E9;
+    color: #fff;
     text-shadow: none;
     /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: 1px solid #fff;
+    background-color:  ;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    text-decoration: none;
 }
 
 
@@ -223,6 +225,7 @@ body {
     min-height: 100%;
     -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+    
 }
 
 .site-wrapper-inner {
@@ -259,7 +262,7 @@ body {
 }
 
 .masthead-nav > li + li {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .masthead-nav > li > a {
@@ -271,6 +274,7 @@ body {
     /* IE8 proofing */
     color: rgba(255, 255, 255, .75);
     border-bottom: 2px solid transparent;
+    text-decoration: none;
 }
 
 .masthead-nav > li > a:hover,
@@ -362,159 +366,7 @@ body {
     }
 }
 
-/*contact form------------------------------------------------------------------------------------------------------------*/
-
-input[type=text] {
-    font-family: 'Inconsolata', monospace;
-    font-size: 1em;
-    width: 70%;
-    height: 10%;
-    margin: 5px 0;
-    margin-left: 5%;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-input[type=text]:focus {
-    border: 3px solid #FBE9E9;
-}
-
-textarea {
-    font-family: 'Inconsolata', monospace;
-    width: 70%;
-    margin: 8px 0;
-    margin-left: 5%;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    resize: none;
-}
-
-
-
-/*styles gallery----------------------------------------------------------------------------------------------------------*/
 
 
 
 
-.gallery figure {
-    color: blue;
-    float: left;
-    height: 160px;
-    margin: 1px;
-    width: 28%;
-    padding-top: 50px;
-
-    
-}
-
-
-footer{
-    text-align:center;
-    
-}
-
-figure {
-    -webkit-border-radius: 1px;
-    height: 9.375em;
-    margin: 5em 0 0 0;
-    overflow: hidden;
-    position: relative;
-    width: 28.1%;
-    
-    
-}
-
-.thumbnail-1 {
-    padding-left: 100px;
-    float: left;
-    margin-left: 2em;
-    
-}
-
-.thumbnail-2 {
-    float: right;
-    margin-right: 2em;
-}
-
-.thumbnail-3 {
-    float: right;
-    margin-right: 2em;
-}
-
-
-
-
-}
-
-
-/*ghost buttons------------------------------------------------------------------------------------------------------------*/
-
-.ghost-button {
-  display: inline-block;
-  width: 80px;
-  padding: 3px;
-  color: #000000;
-  border: 2px solid #000000;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  padding-left: 80px;
-  padding-right: 80px;
-  margin-left: 5%;
-  
-
-
-}
-
-.ghost-button:hover,
-.ghost-button:active {
-  background-color: #fff;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-
-.ghost-button-border-color {
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-  padding: 8px;
-  color: #fff;
-  border: 8px solid #fff;
-  text-align: center;
-  display:table-cell;
-  vertical-align:middle;
-  margin-top: 10px;
-  font-size: 4em;
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-weight: bold;
-  outline: none;
-  text-decoration: none;
-  transition: border-color 0.3s ease-out,
-              color 0.3s ease-out;
-}
-
-.ghost-button-border-color:hover,
-.ghost-button-border-color:active {
-  color: #FBE9E9;
-  border-color: #FBE9E9;
-  transition: border-color 0.4s ease-in,
-              color 0.4s ease-in;
-    
-    
-    
-    
-    
-    
-    
-    
-    /*--------------------------------------------------------------------------------*/
-    
-    
-    
-    
