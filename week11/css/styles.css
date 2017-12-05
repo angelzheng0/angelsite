@@ -1,0 +1,166 @@
+body {
+    background-color: #fff;
+    font-family:'Inconsolata', monospace;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 60em;
+    min-width: 40em;
+}
+
+
+
+article {
+    /*Add a gradient to the box background*/
+
+    background-color: #fff;
+    border-color: #000000;
+    border-radius: 6px;
+    /*box-shadow: 0 0 6px 3px #DBDBDB;*/
+    margin: 0 auto;
+    min-height: 40em;
+    position: relative;
+    width: 80%;
+}
+
+
+
+
+
+article .form-heading {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 2em;
+    padding-top: 1em;
+    position: relative;
+}
+
+.form-text {
+    color: #000000;
+    
+    display: block;
+    margin: 0 auto 2.5em auto;
+    padding-top: 10px;
+    position: relative;
+    width: 85%;
+}
+
+textarea {
+    font: inherit;
+    padding: 2px;
+}
+
+.field-large {
+    width: 12em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 60%;
+    position: relative;
+}
+
+.site-account {
+    color: #000000;
+    padding-top: 1em;
+    padding-left: 12%;
+}
+
+label {
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 12px;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    width: 150px;
+    color: fuchsia;
+
+}
+
+fieldset {
+    background-color: #FBE9E9;
+    border: none;
+    margin-bottom: 20px;
+    padding: .1em 1em 1em 1.5em;
+    margin-left: 3px;
+}
+
+.fields .row {
+    height: 1.5em;
+    margin: 1em 0 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+.button-wrapper {
+  margin: 0 auto;
+  max-width: 26.5%;
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  
+  color: #000000;
+  border: 2px solid #000000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 38%;
+  margin-top: 44%;
+ 
+}
+
+.button:hover,
+.button:active {
+    background-color: #FBE9E9;
+    border: 2px solid #FBE9E9;
+    color: #000;
+    
+    
+}
+
+
+footer{
+    text-align:center;
+    
+}
+
+
+/*contact form------------------------------------------------------------------------------------------------------------*/
+
+input[type=text] {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    background-color: #FBE9E9;
+    margin-bottom: 1%;
+    margin-left: 13%;
+    box-sizing: border-box;
+    padding-right: 120px;
+    border: 2px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #fff;
+    
+}
+
+
+textarea {
+    font-family: 'Inconsolata', monospace;
+    width: 70%;
+    margin: 2px 0;
+    margin-left: 13%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #FBE9E9;
+    font-size: 16px;
+    resize: none;
+}
+
+
