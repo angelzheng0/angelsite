@@ -1,0 +1,344 @@
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+   font-family: 'Inconsolata', monospace;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 58px;
+    font-size: 1.1em;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+
+
+
+h1 {
+    background-color:#FFFFFF;
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2.2em;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+
+
+h3 {
+    background-color:#FFFFFF;
+    color: #FBC2C3;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+h4 {
+     background-color:#ffffff;
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+
+body {
+    background-color: #fff;
+    font-family:'Inconsolata', monospace;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 60em;
+    min-width: 40em;
+}
+
+
+
+article {
+    /*Add a gradient to the box background*/
+
+    background-color: #fff;
+    border-color: #000000;
+    border-radius: 6px;
+    /*box-shadow: 0 0 6px 3px #DBDBDB;*/
+    margin: 0 auto;
+    min-height: 24em;
+    position: relative;
+    width: 80%;
+}
+
+
+
+
+
+article .form-heading {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 2em;
+    padding-top: 1em;
+    position: relative;
+    
+}
+
+.form-text {
+    color: #000000;
+    
+    display: block;
+    margin: 0 auto 2.5em auto;
+    padding-top: 10px;
+    position: relative;
+    width: 85%;
+}
+
+textarea {
+    font: inherit;
+    padding: 2px;
+}
+
+.field-large {
+    width: 12em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 60%;
+    position: relative;
+}
+
+.site-account {
+    color: #000000;
+    padding-top: 1em;
+    padding-left: 12%;
+}
+
+label {
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 12px;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    width: 150px;
+    color: fuchsia;
+
+}
+
+fieldset {
+    background-color: #FBE9E9;
+    border: none;
+   
+    padding: .1em 1em 1em 1.5em;
+    margin-left: 3px;
+    margin-top: 20%;
+}
+
+.fields .row {
+    height: 1.5em;
+    margin: 1em 0 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+.button-wrapper {
+  margin: 0 auto;
+  max-width: 26.5%;
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  
+  color: #000000;
+  border: 2px solid #000000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 38%;
+  margin-top: 44%;
+ 
+}
+
+.button:hover,
+.button:active {
+    background-color: #FBE9E9;
+    border: 2px solid #FBE9E9;
+    color: #000;
+    
+    
+}
+
+
+footer{
+    text-align:center;
+    
+}
+
+
+/*contact form------------------------------------------------------------------------------------------------------------*/
+
+input[type=text] {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    background-color: #FBE9E9;
+    margin-bottom: 1%;
+    margin-left: 13%;
+    box-sizing: border-box;
+    padding-right: 120px;
+    border: 2px solid #000000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #fff;
+    
+}
+
+
+textarea {
+    font-family: 'Inconsolata', monospace;
+    width: 73%;
+    margin: 2px 0;
+    margin-left: 13%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    background-color: #FBE9E9;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
+
+
+/*---------MAIN NAVIGATION----------------------------------------------------------*/
+.nav-links:link {
+    color: #F9C4C5;
+    text-decoration:none;
+   
+    
+}
+
+
+
+.nav-links:visited {
+    color: #F9C4C5;
+    text-decoration:none;
+    
+}
+
+nav {
+    background-color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+nav ul {
+     text-align: center;
+  
+   
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+        
+}
+
+.main-nav li a:link {
+    color: #FBC2C3;
+    text-decoration: none;
+    
+}
+
+.main-nav li a:visited {
+    color: #FBC2C3;
+}
+
+.main-nav li a:hover {
+    color: #FBE9E9;
+}
+
+.main-nav a:active {
+    color: #FBC2C3;
+}
+
+.active-page .current-page-item a {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Default state of sub-navigation */
+
+/*drop down menu----------------------------------------------------------------------------------------------------------*/
+
+/* Default state of sub-navigation */
+
+.subnav {
+    font-size: .9375em;
+    left: -999em;
+    /* moves subnav off screen */
+    margin-left: -18px;
+    position: absolute;
+    z-index: 1000;
+    /* In this case this isn't needed but it's good practice to specify the position of of an absolutely positioned element in it's stack. */
+    
+}
+
+
+/* State of sub-navigation when parent li hovered upon */
+
+.main-nav li:hover .subnav {
+    display: block;
+    /* This is actually redundant. The nav is a block element by default. */
+    left: auto;
+    /* puts subnav back in natural spot */
+    width: 10em;
+    text-decoration-color: #FBC2C3;
+    
+}
+
+.main-nav .subnav li {
+    background-color: #fff7f7;
+    float: left;
+    font-size: 1em;
+    padding: 15px 20px 15px 20px;
+    
+}
+
+.main-nav .subnav li:last-child {
+    padding-bottom: 25px;
+}
+

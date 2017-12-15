@@ -1,0 +1,463 @@
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: 'Arimo', sans-serif, bold;
+
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: #FBE9E9;
+}
+
+header {
+    max-width: 100%;
+    min-height: 5em;
+    background-color: #FBE9E9;
+}
+
+.logo-type {
+    color: #ffffff;
+}
+
+.page-wrapper {
+    background-color: #FBE9E9;
+    min-height: 10em;
+    padding-top: 6em;
+    width: 100%;
+}
+
+.logo-box {
+    background-color: #fcd1d2;
+    border-color: #FBC2C3;
+    border-style: solid;
+    border-width: .5em;
+    display: block;
+
+    margin: 0 auto;
+    /*transition: transform 2s;*/
+    width: 90%;
+    margin-top: -5.5em;
+}
+
+.logo-box:hover {
+    animation: grow 2s ease-in-out;
+    /*transform: scale(1.1);*/
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1, 1);
+        background-color: #FBC2C3;
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+        background-color: #FBC2C3;
+    }
+    100% {
+        transform: scale(1, 1);
+        background-color: #FBE9E9;
+    }
+}
+
+.logo-type {
+    font-size: 8em;
+    letter-spacing: -0.05em;
+    margin: .1em;
+    overflow: hidden;
+    padding-top: 1.7%;
+    position: relative;
+    text-align: center;
+    color: #FBE9E9;
+}
+
+
+/* Default state of sub-navigation */
+
+/*drop down menu----------------------------------------------------------------------------------------------------------*/
+
+/* Default state of sub-navigation */
+
+.subnav {
+    font-size: .9375em;
+    left: -999em;
+    /* moves subnav off screen */
+    margin-left: -18px;
+    position: absolute;
+    z-index: 1000;
+    /* In this case this isn't needed but it's good practice to specify the position of of an absolutely positioned element in it's stack. */
+}
+
+
+/* State of sub-navigation when parent li hovered upon */
+
+.main-nav li:hover .subnav {
+    display: block;
+    /* This is actually redundant. The nav is a block element by default. */
+    left: auto;
+    /* puts subnav back in natural spot */
+    width: 10em;
+    text-decoration-color: #FBC2C3;
+}
+
+.main-nav .subnav li {
+    background-color: #fff7f7;
+    float: left;
+    font-size: 1em;
+    padding: 15px 20px 15px 20px;
+}
+
+.main-nav .subnav li:last-child {
+    padding-bottom: 25px;
+}
+
+
+/*------------------------------------------*/
+
+body {
+   font-family: 'Inconsolata', monospace;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+
+
+}
+
+
+header {
+    background-color: #FBE9E9;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+article {
+    background-color: #FBE9E9;
+    padding-bottom: 70px; 
+	padding-left: 10px;
+    text-align: center;
+    
+}
+
+
+video{
+    
+    padding-bottom: 80px;
+}
+
+
+h1 {
+    background-color: #FBE9E9;
+    color: #f9caca;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 15em;
+    padding-left: 30%;
+    padding-top: 5%;
+    
+    
+    
+}
+
+h2 {
+    
+    padding-top: 50px;
+    
+}
+
+h3 {
+    
+    padding-bottom: 50px;
+    
+}
+
+h4 {
+     background-color:#FBE9E9;
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+
+
+p{
+    
+    padding-top: 30px;
+}
+
+
+
+.wrapper {
+    overflow: hidden;
+}
+
+
+img {
+    
+    padding-bottom: 90px;
+   
+}
+
+
+
+
+
+
+/*---------MAIN NAVIGATION----------------------------------------------------------*/
+.nav-links:link {
+    color: #FBE9E9;
+    text-decoration:none;
+    
+}
+
+.nav-links:link {
+    color: #F9C4C5;
+    text-decoration:none;
+    
+}
+
+.nav-links:visited {
+    color: #F9C4C5;
+    text-decoration:none;
+}
+
+nav {
+    background-color: #FBE9E9;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+nav ul {
+     text-align: center;
+   
+}
+
+li {
+    list-style-type: none;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+    
+  
+    
+    
+}
+
+.main-nav li a:link {
+    color: #FBC2C3;
+    text-decoration: none;
+}
+
+.main-nav li a:visited {
+    color: #FBC2C3;
+}
+
+.main-nav li a:hover {
+    color: #f9d9da;
+}
+
+.main-nav a:active {
+    color: #FBC2C3;
+}
+
+.active-page .current-page-item a {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+*------------MEDIA QUERIES------------------*/
+
+
+/* smartphone vertical orientation: 320px to +/- 479px*/
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    body {
+        background-image: none;
+    }
+    .main-nav {
+        display: none;
+        position: static;
+    }
+    /*Display the'show menu' icon link */
+    .show-menu {
+        display: block;
+        margin-top: -50px;
+    }
+    nav li {
+        display: block;
+        text-align: left;
+    }
+    nav a {
+        font-size: .875em;
+    }
+    .main-nav .subnav li {
+        background-color: #D9853B;
+        border-bottom: solid 10px #D9853B;
+        border-left: solid 20px #D9853B;
+        border-right: solid 20px #D9853B;
+        border-top: solid 10px #D9853B;
+        float: left;
+        
+        width: auto;
+    }
+    h1 {
+        
+        font-weight: 700;
+        padding: 10px 25px 10px 15px;
+    }
+    h2 {
+        
+        font-weight: 700;
+        padding: 10px 25px 10px 15px;
+    }
+    h3 {
+       
+        font-weight: 700;
+        padding: 5px 0 5px 40px;
+    }
+    article {
+        width: 100%;
+    }
+    article p {
+        font-size: .75em;
+    }
+    .article-thumbnail img {
+        max-width: 65%;
+        padding-left: 35px;
+        padding-top: 15px;
+    }
+    aside {
+        width: 90%;
+    }
+    .sidebar-thumbnail img {
+        max-width: 75%;
+    }
+    .active-page .current-page-item a {
+        font-size: 1.2em;
+    }
+}
+
+
+/* smartphone and tablet: 480px to +/- 719px */
+
+@media only screen and (min-width: 30em) and (max-width: 59em) {
+    header {
+        position: relative;
+    }
+    nav li {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    nav a {
+        
+    }
+    .main-nav li:hover .subnav {
+        background-color: ;
+        display: block;
+        float: left;
+        
+        width: 9em;
+    }
+    .main-nav li:hover .subnav li {
+        width: 7em;
+    }
+    
+    article p {
+        font-size: .75em;
+    }
+    .article-thumbnail img {
+        max-width: 65%;
+        padding-left: 35px;
+        padding-top: 15px;
+    }
+    aside {
+        width: 35%;
+    }
+    .sidebar-thumbnail img {
+        max-width: 75%;
+    }
+    h4 {
+        
+        padding-top: 10px;
+    }
+    .sidebar .desc {
+        
+        font-style: oblique;
+        padding-bottom: 10px;
+    }
+    aside li:last-child {
+        padding-bottom: 20px;
+    }
+    footer small {
+        font-size: .5em;
+    }
+}
+
+
+
+/*ghost buttons------------------------------------------------------------------------------------------------------------*/
+
+
+.ghost-button-size-transition {
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  padding: 8px;
+  color: #000000;
+  border: 3px solid #000000;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  transition: width 0.3s ease-out,
+              height 0.3s ease-out,
+              line-height 0.3s ease-out;
+}
+.ghost-button-size-transition:hover,
+.ghost-button-size-transition:active {
+  width: 220px;
+  height: 45px;
+  line-height: 45px;
+  transition: width 0.1s ease-in,
+              height 0.1s ease-in,
+              line-height 0.1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align:center;
+    
+}
+
+
+
+
+
+
+
